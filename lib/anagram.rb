@@ -11,7 +11,7 @@ class Anagram
       if some_word.split("").sort == word.split("").sort
         puts anagrams << some_word
       else
-        []
+        puts anagrams
       end
     end
   end
