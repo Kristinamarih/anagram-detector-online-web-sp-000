@@ -9,9 +9,9 @@ class Anagram
   def match(array) 
     array.each do |some_word|
       if some_word.split("").sort == word.split("").sort
-        @anagrams << some_word
+        @@anagrams << some_word
       else
-        puts @anagrams
+        puts @@anagrams
       end
     end
   end
