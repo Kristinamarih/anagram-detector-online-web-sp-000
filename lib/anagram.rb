@@ -13,7 +13,7 @@ class Anagram
         @@anagrams << some_word
         @@anagrams
       else
-        puts @@anagrams
+        []
       end
     end
   end
